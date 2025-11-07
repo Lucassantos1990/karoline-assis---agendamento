@@ -10,9 +10,14 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ page, onLogout }) => {
   return (
     <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
-        <h1 className="text-2xl md:text-3xl font-bold text-pink-500 tracking-wider">
-          {page === 'admin' ? 'Área Administrativa' : 'Karolina Assis'}
+      <div className="relative container mx-auto px-6 md:px-8 py-4 flex justify-center items-center">
+        <img
+            src="/logo.png" 
+            alt="Logo Karoline Assis"
+            className="h-20 w-20 rounded-full object-cover"
+          />
+        <h1 className="text-2xl md:text-3xl font-bold text-pink-500 tracking-wider text-center">
+          {page === 'admin' ? 'Área Administrativa' : 'Karoline Assis'}
         </h1>
         {page === 'admin' && (
           <button

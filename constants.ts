@@ -27,26 +27,9 @@ export const SERVICES: Service[] = [
 
 
 export const INITIAL_APPOINTMENTS: Appointment[] = [
-    {
-        id: '1',
-        professional: PROFESSIONALS[0],
-        service: SERVICES[0], // Extensão de cílios Volume brasileiro
-        date: new Date(new Date().setDate(new Date().getDate() + 1) && new Date().setHours(10, 0, 0, 0)),
-        clientName: 'Juliana Paes',
-        clientEmail: 'juliana@example.com',
-        clientPhone: '11987654321',
-    },
-    {
-        id: '2',
-        professional: PROFESSIONALS[0],
-        service: SERVICES[9], // Design personalizado com henna
-        date: new Date(new Date().setDate(new Date().getDate() + 1) && new Date().setHours(14, 0, 0, 0)),
-        clientName: 'Marina Ruy Barbosa',
-        clientEmail: 'marina@example.com',
-        clientPhone: '21912345678',
-    },
+  
 ];
 
 export const TIME_SLOTS = [
-  '09:00', '10:00', '11:00', '12:00', '14:00', '15:00', '16:00', '17:00', '18:00'
+  '15:00', '16:00', '17:00', '18:00', '19:00'
 ];
