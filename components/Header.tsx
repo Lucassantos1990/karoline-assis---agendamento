@@ -11,8 +11,8 @@ const Header: React.FC<HeaderProps> = ({ page, onLogout }) => {
   return (
     <header className="bg-white shadow-md">
       <div className="relative container mx-auto px-6 md:px-8 py-4 flex justify-center items-center">
-        <img
-            src="/logo.png" 
+    <img
+      src={(import.meta as any).env.BASE_URL + 'logo.png'}
             alt="Logo Karoline Assis"
             className="h-20 w-20 rounded-full object-cover"
           />

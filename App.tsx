@@ -67,7 +67,7 @@ const App: React.FC = () => {
                 Acesso Restrito
             </button>
         )}
-        <p>&copy; {new Date().getFullYear()} Karolina Assis. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Karoline Assis. Todos os direitos reservados.</p>
       </footer>
     </div>
   );
